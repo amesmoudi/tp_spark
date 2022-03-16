@@ -23,3 +23,7 @@ commande : spark-submit --class Question1 --master yarn --deploy-mode cluster --
 ## Question 2
 fichier scala : Question2.scala
 commande : spark-submit --class Question2 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/cguill18/data/source/source-sample.002 hdfs:///user/cguill18/TP2_result/question2
+
+## Question 3
+fichier scala : Question3.scala
+commande : spark-submit --class Question3 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/cguill18/data/source/source-sample.001 hdfs:///user/cguill18/data/source/source-sample.002 hdfs:///user/cguill18/TP2_result/question3
