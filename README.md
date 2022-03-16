@@ -1,6 +1,8 @@
 # tp_spark
 
 SSH : 
+
+
 ssh-keygen -t rsa
 
 
