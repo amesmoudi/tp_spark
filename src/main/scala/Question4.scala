@@ -4,9 +4,8 @@ import org.apache.spark.sql.types._
 
 object Question4 {
   def main(args: Array[String]) {
-    val inputDir1 = args(0)
-	val inputDir2 = args(1)
-    var outputDir= args(2)
+    val inputDir = args(0)
+    var outputDir= args(1)
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
 	val schema = (new StructType).
 add("sourceId", LongType,false).
@@ -117,12 +116,12 @@ add("flagForAssociation", IntegerType,true).
 add("flagForDetection", IntegerType,true).
 add("flagForWcs", IntegerType,true)
 
-    val objpos =spark
+    val couple =spark
 	.read
 	.schema(schema)
-	.csv(inputDir1,inputDir2)
+	.csv(inputDir)
 import spark.implicits._
-    val donneesDF = objpos.select($"objectId",$"ra",$"decl").
+    val donneesDF = couple.select($"objectId",$"ra",$"decl").
 	where($"scienceCcdExposureId"===453349688988l).
 	filter($"objectId".isNotNull)
 

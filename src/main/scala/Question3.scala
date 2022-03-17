@@ -4,9 +4,8 @@ import org.apache.spark.sql.types._
 
 object Question3 {
   def main(args: Array[String]) {
-    val inputDir1 = args(0)
-	val inputDir2 = args(1)
-    var outputDir= args(2)
+    val inputDir = args(0)
+    var outputDir= args(1)
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
 	val schema = (new StructType).
 add("sourceId", LongType,false).
@@ -120,7 +119,7 @@ add("flagForWcs", IntegerType,true)
     val couple =spark
 	.read
 	.schema(schema)
-	.csv(inputDir1,inputDir2)
+	.csv(inputDir)
 import spark.implicits._
     val donneesDF = couple.select($"sourceId",$"objectId").
 	where($"ra".between(358.0,359.0) and $"decl".between(2.7,3.0)).
