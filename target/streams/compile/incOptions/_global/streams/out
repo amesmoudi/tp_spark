@@ -8,4 +8,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q7$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q8$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/mglukhov/tp_spark/target/scala-2.13/classes.bak[0m

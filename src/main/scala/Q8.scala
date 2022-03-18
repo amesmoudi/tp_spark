@@ -2,7 +2,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._ 
 
-object Q7 {
+object Q8 {
   def main(args: Array[String]) {
 
     val inputObs = args(0)
@@ -367,6 +367,7 @@ object Q7 {
         .where('ra.between(358.0, 359.0) and 'decl.between(2.7, 3.0))
         .filter('objectId.isNotNull)
         .join(obj, Seq("objectId"))
+        .sort('objectId)
 
     donneesDF.write
       .option("header", true)

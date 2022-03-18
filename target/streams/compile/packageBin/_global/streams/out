@@ -2,6 +2,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q5$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q5$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q8$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q8$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q4$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q4$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q5.class[0m
@@ -16,6 +18,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q1$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Q7$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/mglukhov/tp_spark/target/scala-2.13/classes/Q7$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
