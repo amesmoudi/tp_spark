@@ -128,7 +128,7 @@ object Q6 {
         .csv(inputDir)
 
     import spark.implicits._
-
+    
     val donneesDF = data
         .groupBy($"objectId")
         .agg(count($"*").as("nb_observations"))
