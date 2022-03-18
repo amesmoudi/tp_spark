@@ -1,1 +1,31 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/tdevemy/tp_spark/target/scala-2.13/simple-project_2.13-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/tdevemy/tp_spark/target/scala-2.13/simple-project_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q5$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q5$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q6$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q6$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tdevemy/tp_spark/target/scala-2.13/classes/Q2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
