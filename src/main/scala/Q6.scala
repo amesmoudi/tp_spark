@@ -2,11 +2,11 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._
 
-object Q2 {
+object Q6 {
   def main(args: Array[String]) {
     val inputDir = args(0)
     var outputDir= args(1)
-    val spark = SparkSession.builder.appName("Question 2").getOrCreate()
+    val spark = SparkSession.builder.appName("Question 6").getOrCreate()
 	val schema = (new StructType)
         .add("sourceId", LongType, false)
         .add("scienceCcdExposureId", IntegerType, true)
@@ -116,19 +116,24 @@ object Q2 {
         .add("flagForDetection", IntegerType, true)
         .add("flagForWcs", IntegerType, true)
 
-    val obs = spark
-	.read
-	.schema(schema)
-	.csv(inputDir)
+    val obs =spark
+        .read
+        .schema(schema)
+        .csv(inputDir)
+	
+	
 import spark.implicits._
     val donneesDF = obs
-        .select('sourceId,'ra,'decl)
-        .where($"objectId"===433349315283020l)
-
+        .groupBy('objectId)
+	    .agg(count('sourceId)
+        .as("nb_observation"))
+	    .filter('objectId.isNotNull)
+	    .select('objectId,'nb_observation)
+	
     donneesDF.write
-	    .option("header", true)
+	    .option("header",true)
 	    .option("sep",";")
 	    .csv(outputDir)
     spark.stop()
-  }
+    }
 }

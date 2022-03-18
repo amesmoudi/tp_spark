@@ -122,11 +122,11 @@ object Q5 {
         .csv(inputDir)
     import spark.implicits._
         val donneesDF = obs
-            .where($"ra".between(358.0,359.0) and $"decl".between(2.7,3.0))
-            .filter($"objectId".isNotNull)
-            .groupBy($"objectId")
+            .where('ra.between(358.0,359.0) and 'decl.between(2.7,3.0))
+            .filter('objectId.isNotNull)
+            .groupBy('objectId)
             .agg(count("*").as("nb_observation"))
-            .select($"objectId",$"nb_observation")
+            .select('objectId,$"nb_observation")
 
         donneesDF.write
             .option("header",true)

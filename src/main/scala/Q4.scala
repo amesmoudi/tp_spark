@@ -122,9 +122,9 @@ object Q4 {
 	.csv(inputDir)
 import spark.implicits._
     val donneesDF = obs
-        .select($"objectId",$"ra",$"decl")
+        .select('objectId,'ra,'decl)
 	    .where($"scienceCcdExposureId"===453349688988l)
-	    .filter($"objectId".isNotNull)
+	    .filter('objectId.isNotNull)
 
     donneesDF.write
         .option("header",true)

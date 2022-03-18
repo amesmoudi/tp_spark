@@ -123,9 +123,9 @@ object Q3 {
         .csv(inputDir)
     import spark.implicits._
         val donneesDF = obs
-            .select($"sourceId",$"objectId")
-            .where($"ra".between(358.0,359.0) and $"decl".between(2.7,3.0))
-            .filter($"objectId".isNotNull)
+            .select('sourceId,'objectId)
+            .where('ra.between(358.0,359.0) and 'decl.between(2.7,3.0))
+            .filter('objectId.isNotNull)
 
         donneesDF.write
             .option("header",true)
