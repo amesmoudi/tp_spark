@@ -123,7 +123,7 @@ object Q1{
         import spark.implicits._
             val donneesDF = obs
                 .select("*")
-                .where($"sourceId"===29710725217517768l)
+                .where('sourceId===29710725217517768l)
 
             donneesDF.write
                 .option("header", true)

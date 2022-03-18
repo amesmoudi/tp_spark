@@ -126,7 +126,7 @@ object Q5 {
             .filter('objectId.isNotNull)
             .groupBy('objectId)
             .agg(count("*").as("nb_observation"))
-            .select('objectId,$"nb_observation")
+            .select('objectId,'nb_observation)
 
         donneesDF.write
             .option("header",true)

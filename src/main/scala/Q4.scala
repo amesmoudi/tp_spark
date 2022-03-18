@@ -123,7 +123,7 @@ object Q4 {
 import spark.implicits._
     val donneesDF = obs
         .select('objectId,'ra,'decl)
-	    .where($"scienceCcdExposureId"===453349688988l)
+	    .where('scienceCcdExposureId===453349688988l)
 	    .filter('objectId.isNotNull)
 
     donneesDF.write
