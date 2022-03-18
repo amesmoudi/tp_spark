@@ -4,13 +4,10 @@ import org.apache.spark.sql.types._
 
 object Q8 {
   def main(args: Array[String]) {
-
     val inputObs = args(0)
     val inputObj = args(1)
     var outputDir= args(2)
-
     val spark = SparkSession.builder.appName("Question 7").getOrCreate()
-
     val schemaObs = (new StructType)
       .add("sourceId", LongType, false)
       .add("scienceCcdExposureId", IntegerType, true)
