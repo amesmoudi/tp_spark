@@ -5,7 +5,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._ 
 
-object Exo2 {
+object Q2 {
   def main(args: Array[String]) {
 
     val inputDir = args(0)
