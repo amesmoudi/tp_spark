@@ -132,7 +132,7 @@ object Q4 {
     val donneesDF = data.select($"objectId", $"ra", $"decl")
         .where($"scienceCcdExposureId" === 453349688988L)
         .filter($"objectId".isNotNull)
-
+    
     donneesDF.write
       .option("header", true)
       .option("sep", ";")
