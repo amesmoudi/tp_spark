@@ -130,7 +130,6 @@ object Q1 {
     import spark.implicits._
 
     val donneesDF = data.where($"sourceId" === 29710725217517768l)
-
     donneesDF.write
       .option("header", true)
       .option("sep", ";")
