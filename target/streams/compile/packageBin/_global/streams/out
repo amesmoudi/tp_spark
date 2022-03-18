@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/aberrazo/tp_spark/target/scala-2.13/simple-project_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo6$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo6$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo5$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo5$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exo4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/aberrazo/tp_spark/target/scala-2.13/classes/Exo4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
