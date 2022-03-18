@@ -5,7 +5,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._ 
 
-object Q1 {
+object Q6 {
   def main(args: Array[String]) {
 
     val inputDir = args(0)
@@ -123,19 +123,23 @@ object Q1 {
       .add("flagForWcs", IntegerType, true)
 
     val data = spark
-      .read
-      .schema(customSchema)   
-      .csv(inputDir)
+        .read
+        .schema(customSchema)   
+        .csv(inputDir)
 
     import spark.implicits._
 
-    val donneesDF = data.where($"sourceId" === 29710725217517768l)
+    val donneesDF = data
+        .groupBy($"objectId")
+        .agg(count($"*").as("nb_observations"))
+        .filter($"objectId".isNotNull)
+        .select($"objectId", $"nb_observations")
 
     donneesDF.write
       .option("header", true)
       .option("sep", ";")
       .csv(outputDir)
-
+        
     spark.stop()
   }
 }

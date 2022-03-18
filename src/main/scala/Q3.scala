@@ -5,7 +5,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._ 
 
-object Q1 {
+object Q3 {
   def main(args: Array[String]) {
 
     val inputDir = args(0)
@@ -123,13 +123,15 @@ object Q1 {
       .add("flagForWcs", IntegerType, true)
 
     val data = spark
-      .read
-      .schema(customSchema)   
-      .csv(inputDir)
+        .read
+        .schema(customSchema)   
+        .csv(inputDir)
 
     import spark.implicits._
 
-    val donneesDF = data.where($"sourceId" === 29710725217517768l)
+    val donneesDF = data.select($"sourceId",$"objectId")
+        .where($"ra".between(358.0, 359.0) && $"decl".between(2.7, 3.0))
+        .filter($"objectId".isNotNull)
 
     donneesDF.write
       .option("header", true)
