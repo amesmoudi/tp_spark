@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/setudiant/tp_spark/target/scala-2.13/simple-project_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/setudiant/tp_spark/target/scala-2.13/classes/Q1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Q1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/setudiant/tp_spark/target/scala-2.13/classes/Q1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/setudiant/tp_spark/target/scala-2.13/classes/SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/setudiant/tp_spark/target/scala-2.13/classes/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
