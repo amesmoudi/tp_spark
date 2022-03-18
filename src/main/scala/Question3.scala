@@ -1,9 +1,9 @@
-/* Question2.scala */
+/* Question3.scala */
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._ 
 
-object Question2 {
+object Question3 {
   def main(args: Array[String]) {
     val inputDir = args(0)
     var outputDir= args(1)
@@ -125,8 +125,8 @@ add("flagForWcs", IntegerType,true)
 	.csv(inputDir)
 import spark.implicits._
     val donneesDF= collision
-	.select('ra, 'decl)
-	.where('sourceId === 433349315283020L)
+	.select('scienceCcdExposureId, 'objectId)
+	.where('objectId.isNotNull && 'ra >= 358.0 && 'ra <= 359.0 && 'decl >= 2.7 && 'decl <= 3.0)
 
     donneesDF.write
 	.option("header",true)

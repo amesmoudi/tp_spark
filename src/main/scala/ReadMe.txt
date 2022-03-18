@@ -20,3 +20,13 @@ spark-submit --class Question2 --master yarn --deploy-mode cluster --queue defau
 Test : 
 
 hdfs dfs -cat data/extract_Q2_4/part-00000-e710c90d-2e45-4dfd-9bd4-d804900ca0ec-c000.csv
+
+Question 3 :
+
+Execution : 
+
+spark-submit --class Question3 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/jcruchon/data/object hdfs:///user/jcruchon/data/extract_Q3_3
+
+Test :
+
+hdfs dfs -cat data/extract_Q3_3/part-00000-1a2b5c4a-4ab3-4720-bd8b-5b6783d251eb-c000.csv
