@@ -30,4 +30,9 @@ spark-submit --class Q2 --master yarn --deploy-mode cluster --queue default targ
 # Question 3
 spark-submit --class Q3 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/mglukhov/data/source/ hdfs:///user/mglukhov/data/extract_Q3
 
+# Question 4
+spark-submit --class Q4 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/mglukhov/data/source/ hdfs:///user/mglukhov/data/extract_Q4
+
+# Question 5
+
 
