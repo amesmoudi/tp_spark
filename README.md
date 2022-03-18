@@ -14,8 +14,7 @@ cd  ~/.cache/sbt/boot/sbt-launch/1.5.5/
 
 wget https://repo1.maven.org/maven2/org/scala-sbt/sbt-launch/1.5.5/sbt-launch-1.5.5.jar
 
-# TP Big Data avec Spark 
-# Devémy Thibaud
+# TP Big Data avec Spark - Devémy Thibaud
 
 # Question 1
 
