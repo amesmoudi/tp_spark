@@ -137,7 +137,7 @@ object Q3 {
       .option("header", true)
       .option("sep", ";")
       .csv(outputDir)
-
+    
     spark.stop()
   }
 }
