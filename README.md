@@ -66,16 +66,8 @@ commande pour consulter les résultats : hdfs dfs -ls data/extract_Q6
 
 # Question 7
 
-sbt package
-
-commande d'execution : spark-submit --class Q7 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/tdevemy/data/source/ hdfs:///user/tdevemy/data/extract_Q7
-
-commande pour consulter les résultats : hdfs dfs -ls data/extract_Q7
+Non fait
 
 # Question 8
 
-sbt package
-
-commande d'execution : spark-submit --class Q8 --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///user/tdevemy/data/source/ hdfs:///user/tdevemy/data/extract_Q8
-
-commande pour consulter les résultats : hdfs dfs -ls data/extract_Q8
+Non Fait
