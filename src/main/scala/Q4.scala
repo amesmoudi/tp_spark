@@ -116,12 +116,12 @@ object Q4 {
         .add("flagForDetection", IntegerType,true)
         .add("flagForWcs", IntegerType,true)
 
-    val couple =spark
+    val obs =spark
 	.read
 	.schema(schema)
 	.csv(inputDir)
 import spark.implicits._
-    val donneesDF = couple
+    val donneesDF = obs
         .select($"objectId",$"ra",$"decl")
 	    .where($"scienceCcdExposureId"===453349688988l)
 	    .filter($"objectId".isNotNull)
