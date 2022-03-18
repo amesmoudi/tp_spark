@@ -3,10 +3,10 @@
  
  J'ai un soucis avec la commande : 
 	
-	' spark-submit --class SimpleApp --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///data/collisions/csv hdfs:///user/ubuntu/data/extract_1 '
+ spark-submit --class SimpleApp --master yarn --deploy-mode cluster --queue default target/scala-2.13/simple-project_2.13-1.0.jar hdfs:///data/collisions/csv hdfs:///user/ubuntu/data/extract_1
  Sachant que je l'ai déja utiliser dans la seance de tp sans aucun probléme ('hdfs dfs -ls data' pour voir les exemples d'avant)
 	
-	![#f03c15]( Message d'erreur depuis ce matin : )
+	Message d'erreur depuis ce matin en utilisant la même commande qui marchait sans aucaun probléme au TP : 
 	 client token: N/A
 	 diagnostics: Max number of executor failures (3) reached
 	 ApplicationMaster host: worker06
@@ -24,4 +24,4 @@
 	* hdfs dfs -ls data/extract_qstXX
 
 ## Remarque 
-	NB : Le spark submit ne fontionne pas sur ma machine donc le dossier data ne contient pas les fichiers extract_qstXX
+	 La commande spark submit ne fontionne pas sur ma machine donc le dossier data ne contient pas les fichiers extract_qstXX
