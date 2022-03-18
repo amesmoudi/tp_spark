@@ -364,7 +364,7 @@ object Q8 {
         .csv(inputObjets)
 
     import spark.implicits._
-
+    
     val donneesDF = dataObservations.select($"sourceId",$"objectId")
         .where($"ra".between(358.0, 359.0) && $"decl".between(2.7, 3.0))
         .filter($"objectId".isNotNull)
