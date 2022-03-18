@@ -11,7 +11,6 @@ object Q8 {
     val inputObservations = args(0)
     val inputObjets = args(1)
     var outputDir= args(2)
-
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
 
     val customSchemaObservations = (new StructType)
